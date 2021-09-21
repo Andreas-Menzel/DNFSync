@@ -1,6 +1,10 @@
 # DNFSync
 
-Create a backup file of all installed DNF apps.
+Automatically create a list of all installed DNF apps and easily install all of them with just one script execution!
+
+## Usage
+
+Create a file containing a list of all installed DNF apps.
 ```
 DNFSync.py --backup
 ```
