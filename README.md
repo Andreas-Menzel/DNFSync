@@ -6,10 +6,10 @@ Automatically create a list of all installed DNF apps and easily install all of 
 
 Create a file containing a list of all installed DNF apps.
 ```
-DNFSync.py --backup
+$ DNFSync.py --backup
 ```
 
 Install all DNF apps listed in the backup file.
 ```
-DNFSync.py --install
+$ DNFSync.py --install
 ```
