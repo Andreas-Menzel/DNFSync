@@ -2,6 +2,7 @@
 
 import argparse
 import os.path
+from signal import signal, SIGINT
 import subprocess
 
 ### ARGPARSE ###################################################################
@@ -45,7 +46,14 @@ def install(apps):
     subprocess.run(args)
 
 
+def end(sig, frame):
+    print("Goodbye!")
+    exit(0)
+
+
 if __name__ == '__main__':
+    signal(SIGINT, end)
+
     if args.install:
         install(get_installed_apps())
 
