@@ -1,6 +1,7 @@
 # DNFSync
 
-Automatically create a list of all installed DNF apps and easily install all of them with just one script execution!
+Easily save and restore all installed DNF packages with just one script
+execution!
 
 ## Usage
 
