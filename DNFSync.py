@@ -20,7 +20,7 @@ import subprocess
 ### ARGPARSE ###################################################################
 parser = argparse.ArgumentParser(description='Save and restore your DNF apps!', prog='DNFSync')
 
-parser.add_argument('--version', action='version', version='%(prog)s v1.0')
+parser.add_argument('--version', action='version', version='%(prog)s v1.1')
 parser.add_argument('-b', '--backup',
     action='store_true',
     help='Create a list of all installed DNF apps.')
